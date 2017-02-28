@@ -1,0 +1,9 @@
+.btn-next {
+    background:#1e1a8e;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5% 0;
+    position: absolute;
+    bottom:0;
+}

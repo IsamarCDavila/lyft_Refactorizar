@@ -1,0 +1,49 @@
+header h3{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+.icono{
+    padding-top: 5%;
+    padding-left: 0;
+    margin-right: 2%;
+    width:10%;
+}
+header i{
+    font-size: 120%;
+    left:14px;
+}
+.glyphicon {
+    top:5px;
+}
+.peru {
+    display: inline-block;
+    padding-right: 10px;
+}
+.input-group-btn{
+    width: 50px;
+}
+.btn .caret {
+    margin-left: -8px;
+}
+.btn-next {
+    background:#ff00bf;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5% 0;
+    position: absolute;
+    bottom:0;
+}
+.input-group {
+    width: 100%;
+}
+.code {
+    position: absolute;
+    z-index:10;
+    top:7px;
+    left:55px;
+}
+#number {
+    padding-left:12%; 
+}

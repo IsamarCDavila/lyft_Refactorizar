@@ -1,0 +1,55 @@
+header h3{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+.icono{
+    padding-top: 5%;
+    padding-left: 0;
+    width:10%;
+}
+header i{
+    font-size: 120%;
+    left:14px;
+}
+.glyphicon {
+    top:5px;
+}
+.input-group-btn{
+    width: 50px;
+}
+.btn .caret {
+    margin-left: -8px;
+}
+.btn-next {
+    background:#ff00bf;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5% 0;
+    position: absolute;
+    bottom:0;
+} 
+.inner {
+    position: relative;
+}
+.inner .glyphicon-user {
+    position: absolute;
+    padding: 5px 0 5px 10px;
+    pointer-events: none;
+}
+.inner .glyphicon-envelope {
+    position: absolute;
+    padding: 8px 0 5px 10px;
+    pointer-events: none;
+    top:5%;
+}
+.inner input {
+    padding-left: 10%;
+}
+.blue-text {
+    color:#4294f4;
+}
+.check {
+    padding:5%;
+}

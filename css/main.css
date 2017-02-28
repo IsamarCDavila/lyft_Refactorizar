@@ -1,0 +1,37 @@
+body {
+    background: url("../image/fondo.jpg") center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+header img {
+    width:30%;
+}
+header .header {
+    padding-top: 10%;
+    height:150px ;
+    background: -webkit-linear-gradient(black, rgba(255, 255, 0, 0));
+    background: -o-linear-gradient(black, rgba(255, 255, 0, 0));
+    background: -moz-linear-gradient(black, rgba(255, 255, 0, 0)); 
+    background: linear-gradient(black, rgba(255, 255, 0, 0)); 
+}
+section {
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+.btn {
+    font-size: 20px;
+    width:100%;
+    padding: 10% 10%;
+}
+.botonPink {
+    border-color: #D800BF;
+    background: linear-gradient(to right, #7E00BF , #D800BF);
+}
+.botonWhite {
+    background: none;
+    border: solid 1px #fff;
+}

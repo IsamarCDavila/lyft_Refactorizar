@@ -1,0 +1,22 @@
+.seleccion{
+    background-color:#efeff4;
+    padding: 2% 0;
+}
+.seleccion small {
+    padding-left: 5%;
+}
+ul{
+    list-style: none;
+    padding-left: 2%;
+    padding-top: 6%;
+}
+.img-size {
+    width: 10%;
+}
+li p {
+    display: inline-block;
+    margin-left: 2%;
+}
+hr {
+    margin-top: 10px;
+}

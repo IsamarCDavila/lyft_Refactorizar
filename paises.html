@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lyft</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet icon" href="image/descarga.png">
+    <link rel="stylesheet" href="css/paises.css">
+</head>
+<body onload="init()">
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8">
+                <h4 class="text-right" >Select Country</h4>
+            </div>
+            <div class="col-xs-4">
+                <a href="pais.html"><h5 class="text-center"><strong>Close</strong></h5></a>
+            </div>
+        </div>
+    </div>
+    <div class="container seleccion">
+        <small>Common countries</small>
+    </div>
+</header>
+<br>
+<section>
+    <div class="container">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" id="search">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul id="list-countries"></ul>
+            </div>
+        </div>
+    </div>
+</section>    
+
+<script src="js/jquery-3.1.1.js"></script>  
+<script src="js/common.js"></script>
+<script src="js/paises.js"></script>
+
+</body>
