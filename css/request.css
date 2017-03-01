@@ -1,0 +1,16 @@
+
+.btn-next {
+    
+    width: 100%;
+    color: #fff;
+    padding: 5% 0;
+    position: absolute;
+    bottom:0;
+    border-color: #D800BF;
+    background: linear-gradient(to right, #7E00BF , #D800BF);
+}
+header{
+    width: 100%;
+    position: absolute;
+    top:50%;
+}

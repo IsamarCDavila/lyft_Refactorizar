@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lyft</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet icon" href="image/descarga.png">
+    <link rel="stylesheet" href="css/request.css">
+</head>
+<body onload="init()">
+    <!--<div id="map" style="height:800px">-->
+   <header>
+       <div class="container">
+           <div class="list-group">
+             <a href="#" class="list-group-item disabled">
+                    <div class="row">
+                        <div class="col-xs-5 text-right">
+                            <img src="image/carri%C3%B1o.png" alt="">
+                        </div>
+                        <div class="col-xs-7 text-left">
+                            <p><b>Lyft</b></p>
+                            <small>Fast ride, 4 seats</small>
+                        </div>
+            </div>
+             </a>
+             <a href="#" class="list-group-item disabled">
+                <div class="row">
+                    <div class="col-xs-6 text-center ">
+                        <!--<i class="glyphicon glyphicon-credit-card"></i>
+                        <small>Personal</small>
+                        <br>
+                        <small>Payment</small>-->
+                        <p class="navbar-text navbar-right"><i class="glyphicon glyphicon-credit-card"></i> Personal</p>
+                    </div>
+                    <div class="col-xs-6 text-center">
+                        <!--<small>N/A</small>
+                        <br>
+                        <small>Price estimate</small>-->
+                        <p class="navbar-text navbar-left"> N/A <br><small>Payment</small></p>
+                    </div>
+                </div>
+
+             </a>
+             <a href="#" class="list-group-item">Origen(2300 Harrison st.)</a>
+             <a href="#" class="list-group-item">Destino(Caltrain station)</a>
+             
+        </div>     
+       </div>
+        
+    </header>
+    <a id="next" class="btn btn-next">Set destination</a>
+    
+    <script src="js/jquery-3.1.1.js"></script>  
+    <script src="js/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTCqoAARuw47ZDf2wg7OlrkVaPnDAlNbI&callback=initMap"
+        async deser></script>
+</body>
+</html>
