@@ -4,57 +4,67 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lyft</title>
+    <title>mapa2</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet icon" href="image/descarga.png">
     <link rel="stylesheet" href="css/request.css">
 </head>
 <body onload="init()">
-    <!--<div id="map" style="height:800px">-->
-   <header>
-       <div class="container">
-           <div class="list-group">
-             <a href="#" class="list-group-item disabled">
-                    <div class="row">
-                        <div class="col-xs-5 text-right">
-                            <img src="image/carri%C3%B1o.png" alt="">
-                        </div>
-                        <div class="col-xs-7 text-left">
-                            <p><b>Lyft</b></p>
-                            <small>Fast ride, 4 seats</small>
-                        </div>
-            </div>
-             </a>
-             <a href="#" class="list-group-item disabled">
+    <!-- ------------------------------------------------------------------ MAPA -->
+    <div id="map"></div>
+    
+    <!-- ---------------------------------------------------------- SEGUNDA VISTA -->
+    <div class="container">
+        <ul id="list-cars-dos">
+            <li>
                 <div class="row">
-                    <div class="col-xs-6 text-center ">
-                        <!--<i class="glyphicon glyphicon-credit-card"></i>
-                        <small>Personal</small>
-                        <br>
-                        <small>Payment</small>-->
-                        <p class="navbar-text navbar-right"><i class="glyphicon glyphicon-credit-card"></i> Personal</p>
+                    <div class="col-xs-5">
+                        <img src="image/car-sedan.jpg" alt="" height="50px" width="50px" >
                     </div>
-                    <div class="col-xs-6 text-center">
-                        <!--<small>N/A</small>
-                        <br>
-                        <small>Price estimate</small>-->
-                        <p class="navbar-text navbar-left"> N/A <br><small>Payment</small></p>
+                    <div class="col-xs-7">
+                        <p id="name-car">Lyft <br><small>Fast ride, 4 seats</small></p>
                     </div>
                 </div>
+            </li>
 
-             </a>
-             <a href="#" class="list-group-item">Origen(2300 Harrison st.)</a>
-             <a href="#" class="list-group-item">Destino(Caltrain station)</a>
-             
-        </div>     
-       </div>
-        
-    </header>
-    <a id="next" class="btn btn-next">Set destination</a>
+            <li>
+                <div class="row">
+                    <div class="col-xs-6 text-center">
+                        <img src="image/master.png" height="30px" width="30px"alt="" > Personal <br><small>Payment</small>
+                    </div>
+                    <div class="col-xs-6">
+                        <p id="name-car" class="text-center">$6-12 <br><small>Price estimate</small></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <i class="glyphicon glyphicon-heart" style="color:#ff00bf;"></i>
+                    </div>
+                    <div class="col-xs-10">
+                        <p id="name-car">2300 Harrison St</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <i class="glyphicon glyphicon-heart" style="color:#3c0980;"></i>
+                    </div>
+                    <div class="col-xs-10">
+                        <p id="name-car">Caltrain Station</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- ---------------------------------------------------- BOTON DE SELECCION -->
+    <a href="payment.html"class="btn-request" id="boton-request">Request Lyft</a>
     
-    <script src="js/jquery-3.1.1.js"></script>  
-    <script src="js/app.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTCqoAARuw47ZDf2wg7OlrkVaPnDAlNbI&callback=initMap"
-        async deser></script>
+    <!-- ---------------------------------------------------------------- SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/request.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1OTUCWFO21snB64uTCKgsDmi3UlP5FCo&callback=initMap" async defer></script>
+    
 </body>
 </html>

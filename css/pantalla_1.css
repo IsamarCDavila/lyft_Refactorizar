@@ -1,0 +1,40 @@
+section.cars-nearby{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+button#yourPosition{
+    width: 98%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+}
+button#yourPosition i{
+    font-size: 20px;
+    padding: 0 10px;
+}
+button#yourPosition p{
+    padding: 0;
+    margin: 0;
+}
+section.cars-nearby>a{
+    display: inline-block;
+    width: 98%;
+    background-color: #3D067F;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+}
+#cars{
+    position: relative;
+    background-color: #fff;
+    list-style: none;
+    margin-left: 5px;
+    border-radius: 10px;
+    width: 80%;
+}
+/*---------END---app-----------*/

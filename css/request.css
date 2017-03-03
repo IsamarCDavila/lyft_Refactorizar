@@ -1,16 +1,59 @@
-
-.btn-next {
-    
-    width: 100%;
-    color: #fff;
-    padding: 5% 0;
+#list-cars-dos {
+    list-style: none;
+    background: #fff;
     position: absolute;
-    bottom:0;
-    border-color: #D800BF;
-    background: linear-gradient(to right, #7E00BF , #D800BF);
+    margin: 0;
+    bottom: 58px;
+    margin-left: 5px;
+   /* padding: 10px 10px 0 10px;*/
+    padding: 0;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid #ccc;
 }
-header{
+
+#list-cars-dos li *{
+    display: inline-block;
+}
+#list-cars-dos li {
+    padding: 10px 10px 0 10px;
+    line-height: 14px;
+}
+#list-cars-dos li:first-child {
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px 10px 0 0;
+}
+#list-cars-dos li:nth-child(2) {
+    padding-top: 0;
+    border-bottom: 1px solid #ccc;
+}
+#list-cars-dos li:nth-child(2) .row div:first-child {
+    border-right: 1px solid #ccc;
+}
+#list-cars-dos li:nth-child(2), ul li:first-child {
+    background: #e6e6e6;
+}
+#list-cars-dos li:nth-child(3) {
+    padding-right: 0;
+}#list-cars-dosl li:nth-child(3) .row div:nth-child(2) {
+    border-bottom: 1px solid #ccc;
+}
+.row{
     width: 100%;
+    margin: 0;
+}
+
+.btn-request {
+    background: rgb(255,0,191);
+    padding: 10px;
+    color: #fff;
     position: absolute;
-    top:50%;
+    bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.container {
+    padding-left: 0;
 }
