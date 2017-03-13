@@ -1,2 +1,1 @@
-# lyft_-
-trabajado en equipo рефакторинг
+# lyft_jquery_app

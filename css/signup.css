@@ -15,6 +15,10 @@ header i{
 .glyphicon {
     top:5px;
 }
+.peru {
+    display: inline-block;
+    padding-right: 10px;
+}
 .input-group-btn{
     width: 50px;
 }
@@ -27,29 +31,25 @@ header i{
     border: none;
     color: #fff;
     padding: 5% 0;
+    margin-top: 30px;
+}
+.icon-user {
     position: absolute;
-    bottom:0;
-} 
-.inner {
-    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
 }
-.inner .glyphicon-user {
+.input-contact {
+    padding-left: 30px;
+}
+label {
+   display: block;
+}
+.code {
     position: absolute;
-    padding: 5px 0 5px 10px;
-    pointer-events: none;
+    z-index:10;
+    top:22%;
+    left:22%;
 }
-.inner .glyphicon-envelope {
-    position: absolute;
-    padding: 8px 0 5px 10px;
-    pointer-events: none;
-    top:5%;
-}
-.inner input {
-    padding-left: 10%;
-}
-.blue-text {
-    color:#4294f4;
-}
-.check {
-    padding:5%;
+#number {
+    padding-left: 45px;
 }

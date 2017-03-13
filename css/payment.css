@@ -1,21 +1,106 @@
-body
-{
-    padding: 0 10px 0 10px
+* {
+    
 }
-header
-{
-    padding: 20px 10px;
+p {
+    font-size: 17px;
 }
-
-
-.img-circle
-{
+header {
+    padding: 9px 0;
+    border-bottom: 2px solid #ebebeb;
+    margin-bottom: 45px;
+}
+header h3 {
+    margin: 0;
+}
+header i, header img {
+    position: absolute;
+    left: 5px;
+}
+header img {
+    left: 20px;
+}
+header i {
+    top: 15px;
+}
+.foto-perfil {
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
-    border: 4px solid #917e82;
+    margin: 0 auto;
 }
-.bg-next {
-    background-color: #6a5765;
-    padding: 5% 42%;
-    color: white;
-    font-size: 25px;
+.photo{
+    
+    border: 2px solid #ebebeb;
+    padding: 3px;
 }
+.pay {
+    margin-top: 25px;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.tip .container .row {
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+.tip .container .row p{
+    margin: 0;
+    padding: 7px 0;
+    text-align: center;
+}
+.tip .container .row div{
+    border-right: 1px solid #dedede;
+}
+
+.tip .container .row div:last-child {
+    border-right: none;
+}
+.tip .container .row div:hover {
+    background: #ff00bf;
+    color: #fff;
+    outline:1px solid #ff00bf;
+}
+.tip .container .row div:first-child:hover {
+    border-radius: 5px 0 0 5px;
+}
+.tip .container .row div:last-child:hover {
+    border-radius: 0 5px 5px 0;
+}
+.payment {
+    margin-top: 15px;
+}
+.payment .row{
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    padding: 5px 0;
+}
+.payment p{
+    margin: 0;
+}
+.payment i{
+    color: #898989;
+}
+.price {
+    margin-top: 60px;
+}
+.price i{
+    font-size: 10px;
+    color: #898989;
+}
+.next {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    background: #474c62;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+
+
+
+

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?nbufe1');
-  src:  url('fonts/icomoon.eot?nbufe1#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?nbufe1') format('truetype'),
-    url('fonts/icomoon.woff?nbufe1') format('woff'),
-    url('fonts/icomoon.svg?nbufe1#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?fkjzes');
+  src:  url('fonts/icomoon.eot?fkjzes#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fkjzes') format('truetype'),
+    url('fonts/icomoon.woff?fkjzes') format('woff'),
+    url('fonts/icomoon.svg?fkjzes#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,13 +24,34 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-envelope:before {
-  content: "\f003";
+.icon-dots-three-vertical:before {
+  content: "\e902";
+}
+.icon-chevron-up:before {
+  content: "\f077";
+}
+.icon-chevron-down:before {
+  content: "\f078";
+}
+.icon-chevron-circle-left:before {
+  content: "\f137";
+}
+.icon-chevron-circle-right:before {
+  content: "\f138";
+}
+.icon-chevron-circle-up:before {
+  content: "\f139";
+}
+.icon-chevron-circle-down:before {
+  content: "\f13a";
 }
 .icon-user-circle-o:before {
   content: "\f2be";
 }
-.icon-mail-envelope-closed:before {
+.icon-full-moon:before {
   content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
 }
 

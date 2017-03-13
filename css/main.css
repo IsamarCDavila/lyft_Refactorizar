@@ -27,11 +27,24 @@ section {
     width:100%;
     padding: 10% 10%;
 }
-.botonPink {
-    border-color: #D800BF;
-    background: linear-gradient(to right, #7E00BF , #D800BF);
+.transparente{
+    background: rgba(255, 0, 0, 0);
+    color: #fff;
+    border-width: 2px;
+    border-color: #fff;
 }
-.botonWhite {
+.transparente:hover{
     background: none;
-    border: solid 1px #fff;
+    color: #fff;
+    border-color: #fff;
+}
+.derechin {
+    border-color: rgba(255, 0, 0, 0);   
+    background: -webkit-linear-gradient(left, #b511e6 , #ff00eb); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #b511e6, #ff00eb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #b511e6, #ff00eb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #b511e6 , #ff00eb); /* Standard syntax (must be last) */
+}
+.derechin:hover{
+    border-color: rgba(255, 0, 0, 0);
 }

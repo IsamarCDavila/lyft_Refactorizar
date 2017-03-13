@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App</title>
+    <link rel="icon" type="image/ico" href="image/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body onload="init()">
+    <!-- ------------------------------------------------------------------ MAPA -->
+    <div id="map"></div>
+    
+    <!-- ------------------------------------------------------ LISTA DE CARROS -->
+    <div class="container">
+    <ul id="list-cars">
+       
+        <li class="li">
+            <div class="row">
+                <div class="col-xs-3 left">
+                    <img class="imagencar" src="image/sedan-image.png" alt="" >
+                </div>
+                <div class="col-xs-7">
+                    <p id="name-car">Line <br><small>Shared, 2 riders max</small></p>
+                </div>
+                <div class="col-xs-2 right">
+                    <p>3 min</p>
+                </div>
+            </div>
+        </li>
+        
+        <li class="li">
+            <div class="row">
+                <div class="col-xs-3 left">
+                    <img class="imagencar" src="image/sedan-image.png" alt="" >
+                </div>
+                <div class="col-xs-7">
+                    <p id="name-car">Lyft <br><small>4 seats</small></p>
+                </div>
+                <div class="col-xs-2 right">
+                    <p>3 min</p>
+                </div>
+            </div>
+        </li>
+        <li class="li">
+            <div class="row">
+                <div class="col-xs-3 left">
+                    <img class="imagencar" src="image/sedan-image.png" alt="" >
+                </div>
+                <div class="col-xs-7">
+                    <p id="name-car">Plus <br><small>6 seats</small></p>
+                </div>
+                <div class="col-xs-2 right">
+                    <p>3 min</p>
+                </div>
+            </div>
+        </li>
+        <li class="li">
+            <div class="row">
+                <div class="col-xs-3 left">
+                    <img  class="imagencar" src="image/sedan-image.png" alt="" >
+                </div>
+                <div class="col-xs-7">
+                    <p id="name-car">Premier <br><small>High-end, 4 seats</small></p>
+                </div>
+                <div class="col-xs-2 right">
+                    <p>3 min</p>
+                </div>
+            </div>
+        </li>
+        
+    </ul>
+    </div>
+    <!-- ----------------------------------------------------------- BUSCADOR -->
+    <div class="location" id="div-location">
+        <i class="glyphicon glyphicon-circle-arrow-down col-xs-3" id="icon-up"></i>
+        <p class="col-xs-9">2300 Harrison St <br><small>Pickup location</small></p>
+        
+    </div>
+    <!-- --------------------------------------------------- BOTON DE SELECCION -->
+    <a class="btn-set" id="boton">Set pickup</a>
+    <a class="btn-request" id="boton-request" style="display: none;">Request Lyft</a>
+    
+    <!-- ---------------------------------------------------------- SEGUNDA VISTA -->
+    <div class="container">
+        <ul id="list-cars-dos" style="display: none;">
+            <li>
+                <div class="row">
+                    <div class="col-xs-5">
+                        <img src="image/car-sedan.png" id="carro" alt="" >
+                    </div>
+                    <div class="col-xs-7">
+                        <p id="name-car">Lyft <br><small>Fast ride, 4 seats</small></p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="col-xs-6 text-center">
+                        <img src="image/master-card.png" alt="" > Personal <br><small>Payment</small>
+                    </div>
+                    <div class="col-xs-6">
+                        <p id="precio" class="text-center">$6-12 <br><small>Price estimate</small></p>
+                    </div>
+                </div>
+            </li>
+            <li class="li">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <i class="glyphicon glyphicon-heart" style="color:#ff00bf;"></i>
+                    </div>
+                    <div class="col-xs-10">
+                        <p id="name-car">2300 Harrison St</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <i class="glyphicon glyphicon-heart" style="color:#3c0980;"></i>
+                    </div>
+                    <div class="col-xs-10">
+                        <p id="calle">Caltrain Station</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- ---------------------------------------------------------------- SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1OTUCWFO21snB64uTCKgsDmi3UlP5FCo&callback=initMap" async defer></script>
+</body>
+</html>

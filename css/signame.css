@@ -6,7 +6,6 @@ header h3{
 .icono{
     padding-top: 5%;
     padding-left: 0;
-    margin-right: 2%;
     width:10%;
 }
 header i{
@@ -15,10 +14,6 @@ header i{
 }
 .glyphicon {
     top:5px;
-}
-.peru {
-    display: inline-block;
-    padding-right: 10px;
 }
 .input-group-btn{
     width: 50px;
@@ -34,16 +29,27 @@ header i{
     padding: 5% 0;
     position: absolute;
     bottom:0;
+} 
+.inner {
+    position: relative;
 }
-.input-group {
-    width: 100%;
-}
-.code {
+.inner .glyphicon-user {
     position: absolute;
-    z-index:10;
-    top:7px;
-    left:55px;
+    padding: 5px 0 5px 10px;
+    pointer-events: none;
 }
-#number {
-    padding-left:12%; 
+.inner .glyphicon-envelope {
+    position: absolute;
+    padding: 8px 0 5px 10px;
+    pointer-events: none;
+    top:5%;
+}
+.inner input {
+    padding-left: 10%;
+}
+.blue-text {
+    color:#4294f4;
+}
+.check {
+    padding:5%;
 }

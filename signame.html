@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign up</title>
+    <link rel="icon" type="image/ico" href="image/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signame.css">
+    <link rel="stylesheet" href="icon/style.css">
+</head>
+<body onload="init()">
+    <header>
+        <div class="container header">
+            <div class="row">
+                <div class="col-xs-3 text-center icono">
+                    <a href="signup.html"><i class="glyphicon glyphicon-menu-left"></i></a>
+                </div>
+                <div class="col-xs-9 text-center"> 
+                    <h3>Sign up</h3><br>
+                    <small>Join now for free ride credit</small>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="inner">
+                        <input class="form-control" onkeyup="validateName(event)" id="name" type="text" placeholder="First name        Last name"/>
+                        <i class="glyphicon glyphicon-user"></i>
+                    </div>
+                    <div id="mensajeName"></div>
+                    <br>
+                    <div class="inner">
+                        <input class="form-control" onkeyup="validateEmail(event)" id="email" type="text" placeholder="Email"/>
+                         <i class="glyphicon glyphicon-envelope"></i>
+                    </div>
+                    <div id="mensajeEmail"></div>
+                    <br>
+                    <div class="text-center">
+                        <input id="check" onchange="onCheck(event)" class="check" type="checkbox">
+                        <span>I agree to Lyft´s 
+                            <span class="blue-text">Terms of Service</span>
+                        </span>                        
+                    </div>
+                    <div id="mensajeCheck"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a type="button" id="next" class="btn btn-next">Next</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/signame.js"></script>
+</body>

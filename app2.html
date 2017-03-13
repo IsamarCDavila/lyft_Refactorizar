@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>mapa2</title>
+    <title>App</title>
+    <link rel="icon" type="image/ico" href="image/bigote.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/request.css">
+    <link rel="stylesheet" href="css/app2.css">
 </head>
 <body onload="init()">
     <!-- ------------------------------------------------------------------ MAPA -->
@@ -18,7 +19,7 @@
             <li>
                 <div class="row">
                     <div class="col-xs-5">
-                        <img src="image/car-sedan.jpg" alt="" height="50px" width="50px" >
+                        <img src="image/car-sedan.png" alt="" >
                     </div>
                     <div class="col-xs-7">
                         <p id="name-car">Lyft <br><small>Fast ride, 4 seats</small></p>
@@ -29,7 +30,7 @@
             <li>
                 <div class="row">
                     <div class="col-xs-6 text-center">
-                        <img src="image/master.png" height="30px" width="30px"alt="" > Personal <br><small>Payment</small>
+                        <img src="image/master-card.png" alt="" > Personal <br><small>Payment</small>
                     </div>
                     <div class="col-xs-6">
                         <p id="name-car" class="text-center">$6-12 <br><small>Price estimate</small></p>
@@ -59,12 +60,11 @@
         </ul>
     </div>
     <!-- ---------------------------------------------------- BOTON DE SELECCION -->
-    <a href="payment.html"class="btn-request" id="boton-request">Request Lyft</a>
+    <a class="btn-request" id="boton-request">Request Lyft</a>
     
     <!-- ---------------------------------------------------------------- SCRIPT -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/request.js"></script>
+    <script src="js/app.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1OTUCWFO21snB64uTCKgsDmi3UlP5FCo&callback=initMap" async defer></script>
-    
 </body>
 </html>
